@@ -27,18 +27,14 @@ A aplicação irá iniciar e aguardará a entrada do usuário. Basta digitar uma
 
 ## Configuração
 
-Antes de executar a aplicação, é preciso configurar a chave de API da OpenAI. Para isso, crie um arquivo `.env` na raiz do projeto e adicione a seguinte linha:
+Antes de executar a aplicação, é preciso configurar a chave de API da OpenAI. Para isso, edite o arquivo em:
 
 ```
-OPENAI_API_KEY=YourAPIKeyHere
+/src/api_key.py
 ```
 
-Substitua `YourAPIKeyHere` pela sua chave de API da OpenAI.
-
-## Contribuição
-
-Sinta-se à vontade para contribuir com este repositório fazendo um fork e enviando suas alterações através de pull requests.
+Substitua o conteúdo da variável pela sua chave de API da OpenAI.
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo `LICENSE` para obter mais informações.
+Este projeto está licenciado sob a Licença privada.
