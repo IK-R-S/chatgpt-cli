@@ -1,6 +1,6 @@
 from src.app import StartChat
 
-conversa = StartChat('Você é um assistente inteligente e prestativo que conversa sobre vários temas')
+conversa = StartChat('Você é um assistente inteligente e prestativo que conversa sobre vários temas') # Insira o comportamento da IA
 
 while True:
         
