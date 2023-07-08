@@ -38,5 +38,5 @@ Substitua o conteúdo da variável pela sua chave de API da OpenAI.
 ### Comportamento da IA
 edite o comportamento da sua IA alterando a string em `main.py` que serve de parâmetro para a class **StartChat()**
 ```python
-conversa = StartChat('Você é um assistente geral e prestativo')
+conversa = StartChat('Você é um assistente prestativo')
 ```
