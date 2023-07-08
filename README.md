@@ -35,6 +35,8 @@ Antes de executar a aplicação, é preciso configurar a chave de API da OpenAI.
 
 Substitua o conteúdo da variável pela sua chave de API da OpenAI.
 
-## Licença
-
-Este projeto está licenciado sob a Licença privada.
+### Comportamento da IA
+edite o comportamento da sua IA alterando a string em `main.py` que serve de parâmetro para a class **StartChat()**
+```python
+conversa = StartChat('Você é um assistente geral e prestativo')
+```
